@@ -1,6 +1,5 @@
 /* Google Font */
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Ubuntu:ital,wght@1,300;1,400&display=swap");
-@import "bootstrap/dist/css/bootstrap.css";
+@import "~bootstrap/scss/bootstrap";
 /* Global css */
 * {
   box-sizing: border-box;
@@ -42,4 +41,33 @@ a {
 img {
   max-width: 100%;
   height: auto;
+}
+
+/*==================== REUSABLE CSS CLASSES --- SECTIONS ====================*/
+.section {
+  padding: 2rem 0 4rem;
+}
+
+.section__title {
+  font-size: var(--h1-font-size);
+  color: var(--title-color);
+}
+
+.section__subtitle {
+  display: block;
+  font-size: var(--small-font-size);
+  margin-bottom: var(--mb-3);
+}
+
+.section__title,
+.section__subtitle {
+  text-align: center;
+}
+
+.navbar-brand {
+  color: var(--first-color);
+}
+/*==================== REUSABLE CSS CLASSES ====================*/
+.text__center {
+  text-align: center;
 }

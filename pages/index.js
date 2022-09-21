@@ -1,4 +1,9 @@
+import Hero from "./components/hero";
 import Layout from "./components/Layout";
 export default function Home() {
-  return <Layout></Layout>;
+  return (
+    <Layout>
+      <Hero />
+    </Layout>
+  );
 }

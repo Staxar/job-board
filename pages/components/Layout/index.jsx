@@ -1,14 +1,14 @@
 import React from "react";
 import Footer from "./footer";
-import Navbar from "./navbar";
+import LayoutNavbar from "./navbar";
 
 function Layout({ children }) {
   return (
-    <div className="">
-      <Navbar />
+    <>
+      <LayoutNavbar />
       <div className="main">{children}</div>
       <Footer />
-    </div>
+    </>
   );
 }
 

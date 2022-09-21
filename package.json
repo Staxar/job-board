@@ -13,11 +13,16 @@
     "next": "12.3.1",
     "next-auth": "^4.10.3",
     "react": "18.2.0",
+    "react-bootstrap": "^2.5.0",
     "react-dom": "18.2.0",
     "sass": "^1.54.9"
   },
   "devDependencies": {
     "eslint": "8.23.1",
     "eslint-config-next": "12.3.1"
-  }
+  },
+  "main": "index.js",
+  "repository": "https://github.com/Staxar/job-board.git",
+  "author": "Staxar <marcin.kepno@gmail.com>",
+  "license": "MIT"
 }
